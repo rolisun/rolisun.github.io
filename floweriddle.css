@@ -1,0 +1,60 @@
+body {
+    font-size: 100%;
+    font-family: helvetica,arial,sans-serif;
+    text-align: center;
+    background-image:url('背景.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+h1,h2{
+  color: #2D5C74;
+}
+
+.sty1{
+  font-size: 16px;
+  font-weight: lighter;
+  color: #4D8191;
+  text-align: center;
+  line-height: 1.5;
+}
+.sty2{
+  font-weight: lighter;
+  color: #F0C58D;
+  text-align: center;
+}
+
+.button{
+    background-color:#AAD997;
+    color:green;
+    padding:10px 50px;
+    text align:center;
+    border-color: #426F31;
+    border-style: dashed;
+    font-size:16px;
+    margin-right: 15px;
+  }
+#guess5{
+  margin-right: 0;
+}
+
+.disabled {
+    color: gray;
+    pointer-events: none;
+}
+
+#result {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFDE59;
+  text-align: center;
+  line-height: 2;
+}

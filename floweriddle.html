@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <title>猜花谜</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="猜花谜图标.ico" type="image/x-icon">
+    <script src='试验1.js'></script>
+    <link rel="stylesheet" href="试验1.css">
+</head>
+
+<body>
+    <h2>有一个新的伙伴来到了你的花园……</h2>
+    <h1>是一朵小花！</h1>
+    <p class="sty1">
+      <b>
+        这可不是普通的小花，而是神奇的谜语之花。正确回答它的谜题，才能长大</br>
+        动动脑筋，猜对下方谜语，让小花盛开吧！<br>
+      </b>
+    </p>
+
+      <img id="image1" src="土.png" alt="Image 1">
+      <img id="image2" src="花1.png" alt="Image 2" style="display: none;">
+      <img id="image3" src="花2.png" alt="Image 3" style="display: none;">
+      <img id="image4" src="花3.png" alt="Image 3" style="display: none;">
+      <img id="image5" src="花4.png" alt="Image 3" style="display: none;">
+      <img id="image6" src="花5.png" alt="Image 3" style="display: none;">
+
+    <p class="sty2">
+      <b>
+        谜语1：此花名花不是花，新年光彩照万家</br>
+        谜语2：此花映日别样红，淤泥不染心无杂</br>
+        谜语3：此花隐士心头好，悠然南山东篱下</br>
+        谜语4：此花虽俏不争春，天寒地冻把枝压</br>
+        谜语5：春夏秋冬四时景，莫忘胸中一抹花</br>
+      </b>
+    </p>
+
+    <div>
+      <button id="guess1" onclick="answer1()"class="button"><b>猜谜语1</b></button>
+      <button id="guess2" onclick="answer2()"class="button"><b>猜谜语2</b></button>
+      <button id="guess3" onclick="answer3()"class="button"><b>猜谜语3</b></button>
+      <button id="guess4" onclick="answer4()"class="button"><b>猜谜语4</b></button>
+      <button id="guess5" onclick="answer5()"class="button"><b>猜谜语5</b></button>
+    </div>
+    <div id="result"style="display: none;">开花啦！小花说很感谢你哟！</div>
+</body>
+
+</html>
